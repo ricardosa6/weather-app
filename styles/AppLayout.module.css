@@ -1,5 +1,24 @@
+.appLayout_body {
+	--header-height: 50px;
+}
+
 .appLayout_body_container {
-  height: 100vh;
-  padding-top: 50px;
-  margin: 20px;
+	width: 100%;
+	overflow-y: auto;
+	padding: 10px;
+}
+
+.appLayout_body_container__side_menu {
+	height: 100%;
+	width: 25%;
+	padding: 10px;
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0; /* Black */
+	overflow-x: hidden;
+}
+
+.appLayout_vertical_line {
+	border-left: 1px solid rgba(0, 0, 0, 0.3);
+	height: 100%;
 }

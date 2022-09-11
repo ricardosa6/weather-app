@@ -16,25 +16,25 @@ const darkTheme = createTheme({
 	type: "dark",
 	theme: {
 		colors: {
-			background: "#363449"
+			background: "#363449",
 		},
 	},
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
-	return (   
+	return (
 		<NextThemesProvider
-			defaultTheme="dark"
+			defaultTheme="light"
 			attribute="class"
 			value={{
 				light: lightTheme.className,
 				dark: darkTheme.className,
 			}}
 		>
-			<NextUIProvider>      
+			<NextUIProvider>
 				<AppLayout>
 					<Component {...pageProps} />
-				</AppLayout>          
+				</AppLayout>
 			</NextUIProvider>
 		</NextThemesProvider>
 	);
