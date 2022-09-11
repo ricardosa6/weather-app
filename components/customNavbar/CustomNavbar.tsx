@@ -43,7 +43,7 @@ const CustomNavbar = () => {
 			disableShadow
 		>
 			<Navbar.Brand>
-				<span className={styles.header_title}>Weather App</span>
+				<span className={styles.navbar_title}>Weather App</span>
 			</Navbar.Brand>
 			<Navbar.Content hideIn="xs">
 				<Navbar.Link href="#">Features</Navbar.Link>

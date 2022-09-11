@@ -1,5 +1,4 @@
 import Head from "next/head";
-// import Header from "../customNavbar/CustomNavbar";
 // import SideMenu from "../sideMenu/SideMenu";
 import styles from "../../styles/AppLayout.module.css";
 import CustomNavbar from "../customNavbar/CustomNavbar";
